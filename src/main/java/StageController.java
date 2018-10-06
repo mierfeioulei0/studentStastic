@@ -86,7 +86,7 @@ public class StageController {
      */
     public boolean setStage(String name) {
         this.getStage(name).show();
-        this.getStage(name).setResizable(false);
+//        this.getStage(name).setResizable(false);
         return true;
     }
     /**

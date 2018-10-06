@@ -9,6 +9,8 @@ public class Main extends Application {
     public static String mainViewRes = "MainView.fxml";
     public static String StaViewID = "StaView";
     public static String StaViewRes = "StaView.fxml";
+    public static String InsertViewID = "InsertView";
+    public static String InsertViewRes = "InsertView.fxml";
     private StageController stageController;
 
 
@@ -20,6 +22,7 @@ public class Main extends Application {
         stageController.setPrimaryStage("primaryStage", primaryStage);
 //加载两个舞台，每个界面一个舞台
         stageController.loadStage(StaViewID, StaViewRes);
+        stageController.loadStage(InsertViewID, InsertViewRes);
         stageController.loadStage(mainViewID, mainViewRes);
 //显示MainView舞台
         stageController.setStage(mainViewID);

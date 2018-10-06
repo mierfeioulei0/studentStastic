@@ -7,7 +7,7 @@
 
 <AnchorPane prefHeight="277.0" prefWidth="210.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="MainViewController">
     <children>
-        <Button layoutX="41.0" layoutY="169.0" mnemonicParsing="false" onAction="#error" text="     从界面导入   " />
+        <Button layoutX="41.0" layoutY="169.0" mnemonicParsing="false" onAction="#goToInsertView" text="     从界面导入   " />
         <Button fx:id="mButton" layoutX="41.0" layoutY="208.0" mnemonicParsing="false" onAction="#insertFromExcel" text="从Excel文件导入" />
         <Label layoutX="46.0" layoutY="40.0" text="学生成绩统计系统">
             <font>

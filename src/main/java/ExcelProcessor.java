@@ -37,11 +37,11 @@ public class ExcelProcessor {
         //3:获取数据
      //   System.out.println("行：" + sheet.getRows());
      //   System.out.println("列：" + sheet.getColumns());
-        ArrayList<Student> studentList = new ArrayList<>();
+        ArrayList<Student> studentList = new ArrayList<Student>();
 
         for (int i = 1; i < sheet.getRows(); i++) {
             Student student = new Student();
-            ArrayList<Score> scoreList = new ArrayList<>();
+            ArrayList<Score> scoreList = new ArrayList<Score>();
 
             for (int j = 0; j < sheet.getColumns(); j++) {
                 Cell cell = sheet.getCell(j, i);

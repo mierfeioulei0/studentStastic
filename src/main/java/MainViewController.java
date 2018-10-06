@@ -24,6 +24,9 @@ public class MainViewController implements ControlledStage, Initializable {
     public void goToStaView(){
         myController.setStage(Main.StaViewID, Main.mainViewID);
     }
+    public void goToInsertView(){
+        myController.setStage(Main.InsertViewID, Main.mainViewID);
+    }
     public void goToMain() {
         myController.setStage(Main.mainViewID);
     }
